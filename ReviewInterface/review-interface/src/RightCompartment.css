@@ -1,0 +1,129 @@
+.right-compartment {
+  background-color: #744ecd73;
+  padding: 3%;
+  border-radius: 4%;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh; 
+}
+
+h2 {
+  color: #744ecd;
+  font-weight: bold;
+  margin-bottom: 2rem; 
+}
+
+.inner-compartment {
+  background-color: #fff;
+  padding: 5%;
+  border-radius: 5%;
+  width: 100%;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.6); 
+}
+
+.profile-section {
+  display: flex;
+  align-items: flex-start; 
+  margin-bottom: 1rem; 
+}
+
+.profile-picture {
+  width: 6vw;
+  height: 6vw;
+  border-radius: 50%;
+  background-color: #ddd;
+  margin-right: 1rem; 
+  /*background-image: url('./assets/profilePicture.jpg');*/
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.3s ease;
+}
+
+.profile-picture:hover {
+  transform: scale(4.0);
+}
+
+h4 {
+  color: #744ecd;
+  font-weight: bold;
+  margin-top: -1rem; 
+  margin-right: 30%;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  margin-left: -1rem; 
+  margin-top: 3rem; 
+}
+
+.rating-text {
+  margin-top: 2rem; 
+  color: #744ecd;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.rating-stars {
+  margin-top: 2rem; 
+}
+
+.star {
+  color: #744ecd63;
+  font-size: 1.8rem;
+  cursor: pointer;
+  margin-right: 0.5rem; 
+  text-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.3); 
+}
+
+.star.hover {
+  color: #744ecd;
+}
+
+.star.active {
+  color: #744ecd;
+}
+
+.review-section {
+  margin-top: 2rem; 
+}
+
+.review-section h3 {
+  margin-bottom: 1rem; 
+  color: #744ecd;
+  font-weight: bold;
+}
+
+textarea {
+  width: calc(100% - 2.5rem); 
+  height: 10vh; 
+  padding: 1rem; 
+  border: 0.0625rem solid #744ecd59; 
+  border-radius: 1%;
+  resize: none;
+  margin-bottom: 2rem; 
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.6); 
+}
+
+textarea:focus {
+  border-color: #744ecd;
+}
+
+.post-button {
+  background-color: #744ecd;
+  color: white;
+  border: none;
+  padding: 0.3rem 1.25rem; 
+  border-radius: 0.5rem;
+  cursor: pointer;
+  position: absolute;
+  right: 5.5%;
+  bottom: -3%; 
+}
+
+.post-button:hover {
+  background-color: #744ecd67;
+}

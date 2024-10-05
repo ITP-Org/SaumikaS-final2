@@ -1,0 +1,25 @@
+.app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .main-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    position: fix;
+  }
+  
+  .left-compartment-container {
+    width: 60%; 
+  }
+  
+  .right-compartment-container {
+    width: 35%; 
+    background-color: white;
+  }
+  
